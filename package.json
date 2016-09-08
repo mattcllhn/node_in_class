@@ -1,0 +1,23 @@
+{
+  "name": "pi_node_express_format",
+  "version": "1.0.0",
+  "description": "pi node lecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattcllhn/node_in_class.git"
+  },
+  "author": "matt callahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattcllhn/node_in_class/issues"
+  },
+  "homepage": "https://github.com/mattcllhn/node_in_class",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
