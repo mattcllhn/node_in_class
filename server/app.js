@@ -4,7 +4,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var urlEncodedParser = bodyParser.urlencoded({extended:false});
 
-app.listen('3000','localhost',function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log('server is listening on 3000');
 });
 app.get('/', function(req, res){
